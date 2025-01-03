@@ -1,7 +1,6 @@
-import React from 'react';
+import { ArrowUpDown, Edit, Trash2 } from 'lucide-react';
 import { useStore } from '../../store';
 import { CommunicationMethod } from '../../types';
-import { ArrowUpDown, Edit, Trash2 } from 'lucide-react';
 
 interface Props {
   onEdit: (method: CommunicationMethod) => void;

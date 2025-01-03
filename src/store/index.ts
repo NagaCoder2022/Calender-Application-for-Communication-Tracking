@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Company, Communication, CommunicationMethod, User, CommunicationResponse } from '../types';
+import { Communication, CommunicationMethod, CommunicationResponse, Company, User } from '../types';
 
 interface AppState {
   currentUser: User | null;

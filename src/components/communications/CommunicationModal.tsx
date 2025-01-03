@@ -1,8 +1,7 @@
-import React from 'react';
+import { X } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { useStore } from '../../store';
-import { Company, Communication } from '../../types';
-import { X } from 'lucide-react';
+import { Communication, Company } from '../../types';
 
 interface Props {
   selectedCompanies: Company[];

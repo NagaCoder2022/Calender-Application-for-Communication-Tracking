@@ -1,6 +1,5 @@
-import React from 'react';
+import { Building2, Clock, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 import { Company } from '../../types';
-import { Building2, MapPin, Linkedin, Phone, Mail, Clock } from 'lucide-react';
 
 interface Props {
   company: Company;

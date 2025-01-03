@@ -1,10 +1,9 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import { Dashboard } from './pages/Dashboard';
+import { Analytics } from './pages/Analytics';
 import { Calendar } from './pages/Calendar';
 import { Companies } from './pages/Companies';
-import { Analytics } from './pages/Analytics';
+import { Dashboard } from './pages/Dashboard';
 import { Notifications } from './pages/Notifications';
 
 function App() {

@@ -1,6 +1,5 @@
-import React from 'react';
+import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
 import { useStore } from '../../store';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 export function CommunicationChart() {
   const { communications, communicationMethods } = useStore();

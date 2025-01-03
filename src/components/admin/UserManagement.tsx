@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { useStore } from '../../store';
 import { User } from '../../types';
-import { useForm } from 'react-hook-form';
 
 export function UserManagement() {
   const { users, addUser, deleteUser } = useStore();

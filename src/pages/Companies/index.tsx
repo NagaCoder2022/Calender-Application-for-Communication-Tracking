@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
 import { Plus } from 'lucide-react';
+import { useState } from 'react';
 import { useStore } from '../../store';
-import { CompanyForm } from './CompanyForm';
 import { Company } from '../../types';
+import { CompanyForm } from './CompanyForm';
 
 export function Companies() {
   const { companies, addCompany, deleteCompany } = useStore();

@@ -1,7 +1,6 @@
-import React from 'react';
+import { format } from 'date-fns';
 import { useStore } from '../store';
 import { getOverdueCommunications, getTodayCommunications } from '../utils/communications';
-import { format } from 'date-fns';
 
 export function Dashboard() {
   const { companies, communications, communicationMethods } = useStore();
